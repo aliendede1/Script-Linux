@@ -2,14 +2,12 @@
 **Andre Alencar Aires**  
 Scripts universais para Linux — simples, rápidos e completos.
 
-´´´
+---
 
 ## Instalação 
 git clone https://github.com/aliendede1/Script-Linux.git
 chmod +x *.sh
 ./(o script que vc quer)
-
-´´´
 
 ---
 
