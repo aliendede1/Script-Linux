@@ -2,6 +2,7 @@
 
 ## Instalação 
 - git clone https://github.com/aliendede1/Script-Linux.git
+- cd Script-Linux
 - chmod +x *.sh
 - ./(o script que vc quer)
 
