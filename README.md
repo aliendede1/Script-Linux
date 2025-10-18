@@ -21,3 +21,7 @@ Inclui suporte e ferramentas para Python, C, C++, Java, Rust, Go, JS, HTML, CSS,
 Instala plataformas e ferramentas de jogos via Flatpak.
 Inclui: Steam, Heroic Games Launcher, Lutris, Itch.io, RetroArch, Bottles, ProtonUp-Qt e MangoHUD.
 
+- icons-terminal.sh
+Script universal que instala emojis, ícones e símbolos em qualquer distro Linux.  
+Compatível com Debian, Arch, Fedora, Void, openSUSE, Alpine e mais.
+
