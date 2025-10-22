@@ -30,7 +30,7 @@ install_fedora_like() {
     sudo dnf update -y
     sudo dnf install -y wget curl git flatpak wine winetricks lutris \
         kdenlive shotcut gimp audacity obs-studio vlc \
-        telegram-desktop discord zoom
+        
 
     # Adicionar Flathub
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -41,7 +41,7 @@ install_fedora_like() {
 install_arch_like() {
     sudo pacman -Syu --noconfirm
     sudo pacman -S --noconfirm wget curl git flatpak wine winetricks lutris \
-        kdenlive shotcut gimp audacity obs-studio vlc telegram-desktop discord
+        kdenlive shotcut gimp audacity obs-studio vlc 
 
     # Zoom pelo Flatpak
     flatpak install -y flathub us.zoom.Zoom
@@ -52,7 +52,7 @@ install_arch_like() {
 install_void_like() {
     sudo xbps-install -Suy
     sudo xbps-install -y wget curl git flatpak wine winetricks lutris \
-        kdenlive shotcut gimp audacity obs vlc telegram-desktop discord
+        kdenlive shotcut gimp audacity obs vlc 
 
     # Zoom pelo Flatpak
     flatpak install -y flathub us.zoom.Zoom
@@ -62,7 +62,7 @@ install_void_like() {
 install_opensuse_like() {
     sudo zypper refresh
     sudo zypper install -y wget curl git flatpak wine winetricks lutris \
-        kdenlive shotcut gimp audacity obs-studio vlc telegram-desktop discord
+        kdenlive shotcut gimp audacity obs-studio vlc 
 
     flatpak install -y flathub us.zoom.Zoom
     echo "✅ Aplicativos instalados no openSUSE."
