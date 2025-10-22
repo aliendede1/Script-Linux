@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================
-# UNIVERSAL INSTALLER SCRIPT
+# UNIVERSAL INSTALLER SCRIPT (sem Snap)
 # Para Debian, Ubuntu, Mint, Arch, Fedora, Void, e outros
 # =============================================
 
@@ -44,7 +44,7 @@ install_arch_like() {
     sudo pacman -S --noconfirm wget curl git flatpak wine winetricks lutris \
         kdenlive shotcut gimp audacity obs-studio vlc telegram-desktop discord
 
-    # Zoom pelo flatpak
+    # Zoom pelo Flatpak
     flatpak install -y flathub us.zoom.Zoom
 
     echo "✅ Aplicativos instalados no Arch/Manjaro/EndeavourOS."
@@ -55,7 +55,7 @@ install_void_like() {
     sudo xbps-install -y wget curl git flatpak wine winetricks lutris \
         kdenlive shotcut gimp audacity obs vlc telegram-desktop discord
 
-    # Zoom Flatpak
+    # Zoom pelo Flatpak
     flatpak install -y flathub us.zoom.Zoom
     echo "✅ Aplicativos instalados no Void Linux."
 }
@@ -91,6 +91,5 @@ case "$DISTRO" in
 esac
 
 echo "=============================="
-echo "🎉 Instalação finalizada!"
+echo "🎉 Instalação finalizada sem Snap!"
 echo "=============================="
-
