@@ -19,7 +19,6 @@ install_debian_like() {
     sudo apt install -y wget curl git flatpak gnome-software-plugin-flatpak \
         wine64 winetricks lutris \
         kdenlive shotcut gimp audacity obs-studio vlc \
-        telegram-desktop discord zoom
 
     # Adicionar Flathub
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
