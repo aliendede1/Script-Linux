@@ -11,7 +11,7 @@
  
  - install_apps.sh
 Instala aplicativos essenciais para uso diário: comunicação, edição de vídeo/imagem e compatibilidade Windows.
-Inclui: Discord, Zoom, Telegram, OBS, Kdenlive, GIMP, Audacity, VLC, Wine, Lutris e Flatpak.
+Inclui: OBS, Kdenlive, GIMP, Audacity, VLC, Wine, Lutris e Flatpak.
  
  - dev_setup.sh
 Cria um ambiente completo de desenvolvimento com Vim, Neovim e VS Code.
