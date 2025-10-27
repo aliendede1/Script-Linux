@@ -1,4 +1,4 @@
-
+---
 
 ```bash
 git clone https://github.com/aliendede1/Script-Linux.git
@@ -10,9 +10,6 @@ chmod +x *.sh
 ./install_games.sh
       
 ```
----
-
----
 
 ## Scripts Disponíveis
 
