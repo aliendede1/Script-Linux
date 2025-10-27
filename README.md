@@ -6,6 +6,10 @@ cd Script-Linux
 chmod +x *.sh
 ./install_apps.sh      
 ```
+---
+## Como instalar 
+
+./install-icons.sh
 
 ---
 
