@@ -1,5 +1,3 @@
-Perfeito! Aqui está a sua descrição **modificada e organizada**, com formatação limpa, sem repetições e pronta para GitHub:
-
 ---
 
 ## Instalação
@@ -34,5 +32,3 @@ chmod +x *.sh
   Compatível com Debian, Arch, Fedora, Void, openSUSE, Alpine e mais.
 
 ---
-
-Se quiser, posso criar uma versão **ultra enxuta** onde só precisa copiar **uma linha** e escolher o script na hora, ideal para colocar direto na descrição sem poluir. Quer que eu faça isso?
