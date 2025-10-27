@@ -1,10 +1,17 @@
----
+## Instalação
 
-## Instalação 
-- git clone https://github.com/aliendede1/Script-Linux.git
-- cd Script-Linux
-- chmod +x *.sh
-- ./(o script que vc quer)
+Clone o repositório, dê permissão e execute o script desejado:
+
+```bash
+git clone https://github.com/aliendede1/Script-Linux.git
+cd Script-Linux
+chmod +x *.sh
+
+# Execute o script desejado:
+./install_apps.sh      # Instala aplicativos essenciais
+./dev_setup.sh         # Configura ambiente de desenvolvimento
+./install_games.sh     # Instala plataformas de jogos
+./icons-terminal.sh    # Instala emojis, ícones e símbolos no terminal
 
 ---
 ## Os Scrpit 
