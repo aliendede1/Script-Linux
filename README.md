@@ -1,4 +1,3 @@
----
 
 ```bash
 git clone https://github.com/aliendede1/Script-Linux.git
