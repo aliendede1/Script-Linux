@@ -4,12 +4,13 @@
 git clone https://github.com/aliendede1/Script-Linux.git
 cd Script-Linux
 chmod +x *.sh
-./install_apps.sh      
+./install_apps.sh
+./dev-setup.sh
+./icons-terminal.sh
+./install_games.sh
+      
 ```
 ---
-## Como instalar 
-
-./install-icons.sh
 
 ---
 
