@@ -6,6 +6,8 @@ Clone o repositório, dê permissão e execute o script desejado:
 git clone https://github.com/aliendede1/Script-Linux.git
 cd Script-Linux
 chmod +x *.sh
+./install_apps.sh
+```
 
 # Execute o script desejado:
 ./install_apps.sh      # Instala aplicativos essenciais
