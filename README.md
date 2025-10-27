@@ -2,8 +2,6 @@
 
 ## Instalação
 
-Clone o repositório, dê permissão e execute o script desejado:
-
 ```bash
 git clone https://github.com/aliendede1/Script-Linux.git
 cd Script-Linux
