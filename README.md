@@ -1,6 +1,6 @@
 
 ```bash
-git clone https://github.com/aliendede1/Script-Linux.git
+git clone https://github.com/aliendede1/Script-Linux
 cd Script-Linux
 chmod +x *.sh
 ./install-apps.sh
