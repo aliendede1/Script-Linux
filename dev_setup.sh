@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-# ============================================
-# UNIVERSAL DEV SETUP SCRIPT
-# Instala Vim, Neovim e VS Code com suporte a várias linguagens
-# ============================================
 
 set -e
 
@@ -86,79 +82,6 @@ case "$DISTRO" in
         ;;
 esac
 
-# ============================================
-# CONFIGURAÇÃO DO NEOVIM E VIM
-# ============================================
-
-echo "🧩 Configurando Vim e Neovim..."
-
-mkdir -p ~/.config/nvim
-cat > ~/.vimrc <<'EOF'
-syntax on
-set number
-set relativenumber
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set autoindent
-set smartindent
-set background=dark
-set mouse=a
-set clipboard=unnamedplus
-EOF
-
-cat > ~/.config/nvim/init.vim <<'EOF'
-set number
-set relativenumber
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-set background=dark
-set clipboard=unnamedplus
-set mouse=a
-
-" Plugins com vim-plug
-if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
-  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-endif
-
-call plug#begin('~/.local/share/nvim/plugged')
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'L3MON4D3/LuaSnip'
-Plug 'morhetz/gruvbox'
-call plug#end()
-
-colorscheme gruvbox
-EOF
-
-# Instalar os plugins
-nvim --headless +PlugInstall +qall || true
-
-# ============================================
-# CONFIGURAÇÃO DO VS CODE
-# ============================================
-
-echo "⚙️ Configurando VS Code com extensões..."
-
-code --install-extension ms-python.python
-code --install-extension ms-vscode.cpptools
-code --install-extension ms-vscode.cpptools-extension-pack
-code --install-extension golang.go
-code --install-extension rust-lang.rust-analyzer
-code --install-extension ms-java.java-pack
-code --install-extension esbenp.prettier-vscode
-code --install-extension ms-vscode.vscode-typescript-next
-code --install-extension ms-vscode.js-debug-nightly
-code --install-extension redhat.vscode-yaml
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ritwickdey.liveserver
-code --install-extension PKief.material-icon-theme
-code --install-extension dracula-theme.theme-dracula
 
 echo "=============================="
 echo "🎉 AMBIENTE DE DESENVOLVIMENTO COMPLETO INSTALADO!"
